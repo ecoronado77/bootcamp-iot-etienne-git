@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bootcamp-iot-etienne
+  host: bootcamp-iot-etienne
+  disk_quota: 1024M
+  services:
+  - bootcamp-iot-etienne-cloudantNoSQLDB
+  - bootcamp-iot-etienne-iotf-service
